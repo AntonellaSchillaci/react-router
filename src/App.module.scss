@@ -1,0 +1,28 @@
+.App {
+  color: greenyellow;
+  text-align: center;
+
+  .link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    a{
+      color:greenyellow;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 30px;  
+      &:hover{ 
+        font-size: 35px;
+        color: greenyellow;
+      }
+      &:active {
+        color: green;
+      }
+      
+    }
+    
+  }
+
+ 
+}
+
